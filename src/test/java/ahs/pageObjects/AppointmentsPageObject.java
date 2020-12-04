@@ -9,6 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 import java.util.List;
 
 public class AppointmentsPageObject extends basePage {
+
     AppointmentScreen appointmentScreen=new AppointmentScreen();
 
     public AppointmentsPageObject(){

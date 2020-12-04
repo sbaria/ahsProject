@@ -2,7 +2,7 @@
 Feature: Verify the Appointment Details
 
   @regression
-  Scenario: Verify and edit the Appointment detail
+  Scenario:Verify and edit the Appointment detail
     Given "Superadmin" login into the application
     When user click on "Appointment Details"
     And user select date range "01/December/2019" to "18/January/2020"

@@ -14,7 +14,7 @@ public class Hooks {
 
     static WebDriver browser;
 
-    @Before
+    @Before//before test
     public static void setwindows() {
         browser = BrowserFactory.getBrowser();//NOT REQUIRED
         browser.manage().timeouts().implicitlyWait(AutomationContants.TIMEOUT, TimeUnit.SECONDS);
@@ -30,5 +30,5 @@ public class Hooks {
             scenario.embed(screenshot, "image/png"); // ... and embed it in the report.
         }
     }
-    //hello good morning
+
 }
